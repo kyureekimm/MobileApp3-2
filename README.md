@@ -5,7 +5,7 @@
 ## 🛠 Tech Stack
 * **Language**: Kotlin
 * **Architecture**: MVVM 패턴 지향
-* [cite_start]**Library**: Retrofit2, GSON, Glide, Room, Google Play Services [cite: 256, 557, 821, 930]
+* [cite_start]**Library**: Retrofit2, GSON, Glide, Room, Google Play Services 
 * **Asynchronous**: Coroutines, Flow
 
 ---
