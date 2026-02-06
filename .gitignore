@@ -1,0 +1,44 @@
+# 1. 모든 파일 및 폴더 무시 (2094개 지옥 방지)
+*
+
+# 2. 하위 폴더 구조 유지 (안쪽 파일 탐색 허용)
+!*/
+!**/
+
+# 3. 주요 소스 코드 및 설정 파일 허용 (안드로이드/자바/웹/C 공통)
+!**/*.kt
+!**/*.java
+!**/*.jsp
+!**/*.html
+!**/*.css
+!**/*.js
+!**/*.xml
+!**/*.gradle
+!**/*.properties
+!**/*.c
+!**/*.h
+
+# 4. 이미지 및 그래픽 리소스 허용 (res 폴더용)
+!**/*.png
+!**/*.jpg
+!**/*.jpeg
+!**/*.webp
+!**/*.gif
+!**/*.ico
+
+# 5. 필수 실행 및 빌드 도구 허용 (윈도우/맥 공통)
+!gradlew
+!gradlew.bat
+!gradle/
+!.gitignore
+
+# 6. 절대 올리면 안 되는 쓰레기 파일 (강력 차단)
+.DS_Store
+build/
+.gradle/
+.idea/
+local.properties
+*.class
+bin/
+gen/
+out/
